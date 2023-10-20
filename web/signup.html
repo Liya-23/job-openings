@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/web/static/signup.css">
+    <title>NML Sign Up</title>
+</head>
+<body>
+    <div class="signup-box">
+        <h2>Sign Up</h2>
+        <form id="signup-form" action="/signup" method="post">
+            <div class="inline-group">
+                <div class="form-group">
+                    <label for="firstname">First Name</label>
+                    <input type="text" name="firstname" id="firstname" required>
+                </div>
+                <div class="form-group">
+                    <label for="lastname">Last Name</label>
+                    <input type="text" name="lastname" id="lastname" required>
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="phonenumber">Phone Number</label>
+                <input type="text" name="phonenumber" id="phonenumber" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email Address</label>
+                <input type="email" name="email" id="email" required>
+            </div>
+            <div class="form-group">
+                <label for="reg_username">Username</label>
+                <input type="text" name="reg_username" id="reg_username" required>
+            </div>
+            <div class="inline-group">
+                <div class="form-group">
+                    <label for="reg_password">Password</label>
+                    <input type="password" name="reg_password" id="reg_password" required>
+                </div>
+                <div class="form-group">
+                    <label for="reg_conf_password">Confirm Password</label>
+                    <input type="password" name="reg_conf_password" id="reg_conf_password" required>
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="cv">CV/Resume</label>
+                <input type="file" name="cv" id="cv" required>
+            </div>
+            <div class="form-group">
+                <button type="submit">Register</button>
+            </div>
+        </form>
+        <p><a href="/login">Already have an account?</a></p>
+    </div>
+</body>
+</html>

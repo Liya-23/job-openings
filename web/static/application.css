@@ -1,0 +1,20 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f9f9f9;
+}   
+.apply-box {
+    margin: 0 auto;
+    background: #ece7e7;
+    padding: 20px;
+    border: 1px solid #ddd;
+}
+.post{
+    padding: 8px 16px;
+    margin: 20px auto;
+    background: #e2eee2;
+}
+.post:hover{
+    background: #9ad49a;
+}
