@@ -59,7 +59,7 @@ def make_app():
     ])
 
 if __name__ == "__main__":
-    readTF()
+    # readTF()
     app = make_app()
     app.listen(7784)
     print("sum on port 7784")
